@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+    List<Integer> listInt =  Arrays.asList(1,2,3);
+    List<String> listString = Arrays.asList("Hello","World");
+
+    print(listInt);
+    print(listString);
+}
+
+private static void print(List<?> list) {
+    for(Object x : list) {    
+        System.out.println(x);
+
+    }
+}
+}
